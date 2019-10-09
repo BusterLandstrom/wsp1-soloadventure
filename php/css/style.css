@@ -1,0 +1,19 @@
+body {
+    background-color: bisque;
+    font-size: 16px;
+}
+
+main {
+    width: 60%;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 1.4em;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
