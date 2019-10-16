@@ -16,4 +16,10 @@ ul {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
+} .charText{
+    text-align: right;
+    margin-right: 45px;
+    font-size: 1.2em;
+} .story{
+   /*margin-top: -5em;*/
 }
