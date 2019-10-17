@@ -10,11 +10,11 @@
 <body>
     <main>
         <p class="charText">Character:  <?php echo $_SESSION['character'];?></p>
-        <p class="charText">Primary hand: <?php echo $_SESSION['primary_hand'] ?></p>
-        <p class="charText">Backpack: <?php ?></p>
+        <p class="charText">Primary hand: <?php echo $_SESSION['primary_hand']; ?></p>
+        <p class="charText">Backpack: <?php print_r($_SESSION['backpack']); echo $item_name; ?></p>
         <div class="story">
             <p>Tillbaka till <a href="?id=1">början.</a></p>
-            <p>Du har <?php echo $_SESSION['endurance']; ?> liv.</p>
+            <p>Du har <?php echo $_SESSION['endurance'];?> liv.</p>
             <p>
                 <?= $story['body'] ?>
             </p>
